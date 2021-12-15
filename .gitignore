@@ -1,0 +1,17 @@
+.vscode
+*.npy
+__pycache__
+model
+*.cfg
+analysis
+*.7z
+tmp
+log
+test
+*.o
+build
+dist
+*.egg-info
+csv
+activation.raisim
+test_record

@@ -1,0 +1,59 @@
+seed: 233
+record_video: yes
+learning_rate: 0.001
+
+environment:
+  render: True
+  num_envs: 100
+  num_threads: 40
+  simulation_dt: 0.0025
+  control_dt: 0.01
+  max_time: 5.0
+  terminalRewardCoeff_: -0.8
+  costScale1_: 0.1
+  costScale2_: 1.0
+  groundAmplitude_: 0.0025
+  total_timesteps: 200000000
+  costScaleIncreaseRate_: 0.9995
+  noiseFtr: 1.0
+  bodyHeightNoiseScale_: 0.03
+  bodyAngularPositionNoiseScale_: 0.02
+  JointPositionNoiseScale_: 0.002
+  bodyLinearVelocityNoiseScale_: 0.1
+  bodyAngularVelocityNoiseScale_: 0.3
+  JointVelocityNoiseScale_: 0.3
+  bodyMassNoiseScale_: 0.05
+  bodyComOffsetNoiseScale_: 0.05
+  bodyShapeNoiseScale_: 0.05
+  frictionMean_: 0.8
+  frictionNoiseScale_: 0.4
+  mixParam_: 1.0
+  contactMixParam_: 0.3
+  torqueCostScale_: 0.2
+  linVelCostScale_: 1.0
+  toeLateralOffset_: 0.06
+  angVelCostScale_: 0.5
+  commandScaleFtr_: 1.0
+  actionStdScalar_: 0.8
+  bodyForceAmplitude_: 5.0
+  cricculumFactorCmdInit_: 1.0
+  cricculumFactorMimicInit_: 1.0
+  cricculumFactorCmdFinal_: 1.0
+  cricculumFactorMimicFinal_: 1.0
+  cricculumIncreaseFactor_: 1.0
+  EndEffectorRewardFactor_: 0.2
+  JointRewardFactor_: 0.35
+  BodyPosRewardFactor_: 0.05
+  cmdRewardFactor_: 0.15
+  BodyHeightRewardFactor_: 0.05
+  flipFriction_: 1.0
+  swingHeight_: 0.08
+  walkOnly: False
+  gallopOnly: False
+  bodyPosModification_: 1.0
+  autoChangeGait: True
+  cmdCostCoeff: 8.0
+  bodyPosRewardCoeff: 80.0
+  useManualPhase: True
+  specificGait: -1
+  threeLegGait: False
