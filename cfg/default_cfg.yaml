@@ -17,7 +17,7 @@ environment:
   costScaleIncreaseRate_: 0.9995
   noiseFtr: 1.0
   bodyHeightNoiseScale_: 0.03
-  bodyAngularPositionNoiseScale_: 0.02
+  bodyAngularPositionNoiseScale_: 0.1
   JointPositionNoiseScale_: 0.002
   bodyLinearVelocityNoiseScale_: 0.1
   bodyAngularVelocityNoiseScale_: 0.3
@@ -29,7 +29,6 @@ environment:
   frictionNoiseScale_: 0.4
   mixParam_: 1.0
   contactMixParam_: 0.3
-  torqueCostScale_: 0.2
   linVelCostScale_: 1.0
   toeLateralOffset_: 0.06
   angVelCostScale_: 0.5
@@ -41,11 +40,6 @@ environment:
   cricculumFactorCmdFinal_: 1.0
   cricculumFactorMimicFinal_: 1.0
   cricculumIncreaseFactor_: 1.0
-  EndEffectorRewardFactor_: 0.2
-  JointRewardFactor_: 0.35
-  BodyPosRewardFactor_: 0.05
-  cmdRewardFactor_: 0.15
-  BodyHeightRewardFactor_: 0.05
   flipFriction_: 1.0
   swingHeight_: 0.08
   walkOnly: False
@@ -57,3 +51,9 @@ environment:
   useManualPhase: True
   specificGait: -1
   threeLegGait: False
+  torqueCostScale_: 0.2
+  cmdRewardFactor_: 0.15
+  JointRewardFactor_: 0.5
+  EndEffectorRewardFactor_: 0.05
+  BodyPosRewardFactor_: 0.05
+  BodyHeightRewardFactor_: 0.05
