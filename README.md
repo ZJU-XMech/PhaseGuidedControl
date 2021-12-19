@@ -4,7 +4,7 @@
 
 This repository contains the RL environment and serveral other necessary code for the paper: 
 
-"Learning Free Gait Transition for Quadruped Robots vis Phase-Guided Controller" (DOI: TBA)
+"Learning Free Gait Transition for Quadruped Robots vis Phase-Guided Controller" (DOI: 10.1109/LRA.2021.3136645)
 
 ## Dependencies
 
