@@ -4,7 +4,20 @@
 
 This repository contains the RL environment and serveral other necessary code for the paper: 
 
-"Learning Free Gait Transition for Quadruped Robots vis Phase-Guided Controller" (DOI: 10.1109/LRA.2021.3136645)
+"[Learning Free Gait Transition for Quadruped Robots vis Phase-Guided Controller](https://ieeexplore.ieee.org/document/9656601)" (DOI: 10.1109/LRA.2021.3136645)
+
+```
+@ARTICLE{9656601,  
+author={Shao, Yecheng and Jin, Yongbin and Liu, Xianwei and He, Weiyan and Wang, Hongtao and Yang, Wei},  
+journal={IEEE Robotics and Automation Letters},   
+title={Learning Free Gait Transition for Quadruped Robots via Phase-Guided Controller},   
+year={2021},  
+volume={},  
+number={},  
+pages={1-1},  
+doi={10.1109/LRA.2021.3136645}
+}
+```
 
 ## Dependencies
 
