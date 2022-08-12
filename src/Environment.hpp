@@ -1092,19 +1092,19 @@ public:
             int idx = contact.getlocalBodyIndex();
             if (idx == 3)
             {
-                footContactForce_[0] += (contact.getImpulse()->e() / simulation_dt_);
+                footContactForce_[0] += (contact.getImpulse().e() / simulation_dt_);
             }
             if (idx == 6)
             {
-                footContactForce_[1] += (contact.getImpulse()->e() / simulation_dt_);
+                footContactForce_[1] += (contact.getImpulse().e() / simulation_dt_);
             }
             if (idx == 9)
             {
-                footContactForce_[2] += (contact.getImpulse()->e() / simulation_dt_);
+                footContactForce_[2] += (contact.getImpulse().e() / simulation_dt_);
             }
             if (idx == 12)
             {
-                footContactForce_[3] += (contact.getImpulse()->e() / simulation_dt_);
+                footContactForce_[3] += (contact.getImpulse().e() / simulation_dt_);
             }
         }
 
