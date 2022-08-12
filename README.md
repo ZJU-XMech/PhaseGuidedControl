@@ -33,7 +33,7 @@ For the algorithms, we use tensorflow and stable-baselines.
 
 - [TensorFlow](https://www.tensorflow.org/) (<=1.15)
 
-- [Stable Baselines](https://stable-baselines.readthedocs.io/) (2.80.0)
+- [Stable Baselines](https://stable-baselines.readthedocs.io/) (2.8.0)
 
 ## Compile
 
